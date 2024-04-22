@@ -41,7 +41,7 @@ ingresa mail receptor
 ****************************************************************/
 
 if( !$error ) {
-	mail("moraws78@gmail.com", $subject, $mensaje, $from);
+	mail("walfmore17@outlook.es", $subject, $mensaje, $from);
 }
 ?>
 				
