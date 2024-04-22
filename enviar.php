@@ -41,7 +41,7 @@ ingresa mail receptor
 ****************************************************************/
 
 if( !$error ) {
-	mail("email@receptor.com", $subject, $mensaje, $from);
+	mail("moraws78@gmail.com", $subject, $mensaje, $from);
 }
 ?>
 				
@@ -148,7 +148,7 @@ if( !$error ) {
 		<div id="bottom-footer" class="container cf">
 			
 			<div class="copyright">
-				&copy; 2021 Emily's Shop
+				&copy; 2024 WMAcademy
 			</div><!-- /.copyright -->
 			
 			<nav id="footer-menu">
