@@ -1,145 +1,154 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<meta charset="utf-8">
-	<title>Walter Mora / Nivelacion online</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-	<meta name="author" content="Walter Mora">
-	
-	<link rel="stylesheet" href="style.css" >
-	
-	
+    <meta charset="utf-8">
+    <title>Walter Mora / Nivelación online</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Walter Mora">
+    
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Estilo para el contenedor principal */
+        .whatsapp-contact {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: Arial, sans-serif;
+            padding: 15px;
+            background-color: #f5f5f5;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+            margin-top: 30px; /* Ajuste para separar del encabezado */
+        }
+                                        
+        /* Estilo para el texto de contacto */
+        .whatsapp-text {
+            margin-top: 15px;
+            font-size: 16px;
+            color: #333;
+        }
 
-	
+        /* Estilo para el enlace de WhatsApp */
+        .whatsapp-link {
+            text-decoration: none;
+            color: #25D366; /* Color verde característico de WhatsApp */
+            font-weight: bold;
+            margin-left: 10px; /* Ajuste de margen */
+        }
+
+        /* Estilo para el ícono de WhatsApp */
+        .whatsapp-icon {
+            width: 40px;
+            height: 40px;
+            margin-right: 20px; /* Ajuste de margen */
+        }
+
+        /* Estilo para el pie de página */
+        #main-footer {
+            padding: 20px 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        
+        #bottom-footer {
+            margin-top: 20px;
+        }
+        
+        #footer-menu ul {
+            list-style: none;
+            padding: 0;
+        }
+    </style>
 </head>
 
 <body>
-	
-	<section id="main-header" class="container cf">
-		
-		<a class="logo-header" href="img/WM4.svg" title="Inicio">
-			<span class="logo"><img src="img/WM4.svg" alt="logo" width="306" height="37"></span>
-			<span class="slogan">Clases de nivelacion personalizadas</span>
-		</a><!-- /#logo-header -->
-		
-		<span class="menu-trigger"><img src="img/menu-responsive.svg" alt="Abrir menú" /></span>
-		
-		<nav id="main-menu" role="navigation" class="closed">
-			<ul>
-				<li class="featured"><a href="index.html">Inicio</a></li>
-				<li class="featured"><a href="servicios.html">Servicios</a></li>
-				<li class="featured"><a href="Nosotros.html">Nosotros</a></li>
-				<li class="featured"><a href="contacto.html">Contacto</a></li>
-			</ul>
-		</nav><!-- /#main-menu -->
-		
-	</section><!-- /#main-header -->
-	
-	<main id="content-area">
-	
-		<article class="single-page">
-			
-			
-			<header class="page-header">
-				<div class="container">
-					
-					<h1>Contacto</h1>
-					
-					<p>En este apartado puedes despejar todas tus inquietudes acerca de nuestros servicios en nivelacion y asesoria educativa. </p>
-				
-				</div>
-			</header><!-- /.page-header -->
-			
-			
-			
-			<div class="container page-content">
-			
-				<title>Contacto por WhatsApp</title>
-				<style>
-					/* Estilo para el contenedor principal */
-					.whatsapp-contact {
-						display: flex;
-						align-items: center;
-						justify-content: center;
-						font-family: Arial, sans-serif;
-						padding: 15px;
-						background-color: #f5f5f5;
-						border: 1px solid #ccc;
-						border-radius: 8px;
-						box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
-					}
-											
-					/* Estilo para el texto de contacto */
-					.whatsapp-text {
-						margin-top: 15px;
-						font-size: 16px;
-						color: #333;
-					}
-			
-					/* Estilo para el enlace de WhatsApp */
-					.whatsapp-link {
-						text-decoration: none;
-						color: #25D366; /* Color verde característico de WhatsApp */
-						font-weight: bold;
-					}
+    <section id="main-header" class="container cf">
+        
+        <a class="logo-header" href="index.html" title="Inicio">
+            <span class="logo"><img src="img/WM4.svg" alt="logo" width="306" height="37"></span>
+            <span class="slogan">Clases de nivelación personalizadas</span>
+        </a><!-- /#logo-header -->
+        
+        <span class="menu-trigger"><img src="img/menu-responsive.svg" alt="Abrir menú" /></span>
+        
+        <nav id="main-menu" role="navigation" class="closed">
+            <ul>
+                <li class="featured"><a href="index.html">Inicio</a></li>
+                <li class="featured"><a href="servicios.html">Servicios</a></li>
+                <li class="featured"><a href="Nosotros.html">Nosotros</a></li>
+                <li class="featured"><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav><!-- /#main-menu -->
+        
+    </section><!-- /#main-header -->
+    
+    <main id="content-area">
+    
+        <article class="single-page">
+            
+            
+            <header class="page-header">
+                <div class="container">
+                    
+                    <h1>Contacto</h1>
+                    
+                    <p>En este apartado puedes despejar todas tus inquietudes acerca de nuestros servicios en nivelación y asesoría educativa. </p>
+                
+                </div>
+            </header><!-- /.page-header -->
+            
+            
+            
+            <div class="container page-content">
+            
+                <div class="whatsapp-contact">
+                    <!-- Icono de WhatsApp -->
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/240px-WhatsApp.svg.png" alt="Logo de WhatsApp" class="whatsapp-icon">
+    
+                    <!-- Texto de contacto -->
+                    <p class="whatsapp-text">Contáctame por WhatsApp para obtener más información:</p>
+    
+                    <!-- Enlace de WhatsApp con tu número -->
+                    <a href="https://wa.me/5930967964786" class="whatsapp-link" target="_blank">Enviar mensaje por WhatsApp</a>
+                </div>
+        
+            </div><!-- /.content -->
 
-					/* Estilo para el ícono de WhatsApp */
-					.whatsapp-icon {
-						width: 40px;
-						height: 40px;
-						margin-right: 30px;
-						margin-left: 20px;
-					}
-				</style>
-
-				<div class="whatsapp-contact">
-					<!-- Icono de WhatsApp -->
-					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/240px-WhatsApp.svg.png" alt="Logo de WhatsApp" class="whatsapp-icon">
-
-					<!-- Texto de contacto -->
-					<p class="whatsapp-text">Contáctame por WhatsApp para obtener más información:</p>
-
-					<!-- Enlace de WhatsApp con tu número -->
-					<a href="https://wa.me/5930967964786" class="whatsapp-link" target="_blank">Enviar mensaje por WhatsApp</a>
-				</div>
-		
-			</div><!-- /.content -->
-
-		</article><!-- /#single-page -->
-	</main><!-- /#content-area -->
-	
-	<footer id="main-footer">
-		
-		<div class="footer-call-to-action">
-			
-			<p class="container">¿Tienes alguna duda más? <a href="contacto.html" class="btn">Contacto</a></p>
-			
-		</div><!-- /.footer-call-to-action -->
-		
-		<div id="bottom-footer" class="container cf">
-			
-			<div class="copyright">
-				&copy; 2024  WMAcademy
-			</div><!-- /.copyright -->
-			
-			<nav id="footer-menu">
-				<ul>
-					<li><a href="index.html">Inicio</a></li>
-					<li><a href="servicios.html">Servicios</a></li>
-					<li><a href="Nosotros.html">Nosotros</a></li>
-					<li><a href="contacto.html">Contacto</a></li>
-				</ul>
-			</nav><!-- /#footer-menu -->
-			
-		</div><!-- /#bottom-footer -->
-		
-	</footer><!-- /#main-footer -->
+        </article><!-- /#single-page -->
+    </main><!-- /#content-area -->
+    
+    <footer id="main-footer">
+        
+        <div class="footer-call-to-action">
+            
+            <p class="container">¿Tienes alguna duda más? <a href="contacto.html" class="btn">Contacto</a></p>
+            
+        </div><!-- /.footer-call-to-action -->
+        
+        <div id="bottom-footer" class="container cf">
+            
+            <div class="copyright">
+                &copy; 2024  WMAcademy
+            </div><!-- /.copyright -->
+            
+            <nav id="footer-menu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="Nosotros.html">Nosotros</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav><!-- /#footer-menu -->
+            
+        </div><!-- /#bottom-footer -->
+        
+    </footer><!-- /#main-footer -->
 
 
-	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
-	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-	<script src="js/rem.min.js"></script>
-	<script src="js/functions.js"></script>
-	
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/rem.min.js"></script>
+    <script src="js/functions.js"></script>
 </body>
 </html>
