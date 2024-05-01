@@ -1,170 +1,215 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<meta charset="utf-8">
-	<title>Walter Mora / Nivelacion online</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-	<meta name="author" content="Emily Sarmiento">
-	
-	<link rel="stylesheet" href="style.css" >
-	
-	
-
+    <meta charset="utf-8">
+    <title>Walter Mora / Nivelación online</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Emily Sarmiento">
+    
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Reglas de estilo CSS adicionales para hacer que el diseño sea responsive */
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            max-width: 1200px; /* Limitar el ancho máximo para evitar que la página se estire demasiado en pantallas grandes */
+        }
+        
+        /* Estilo para el menú */
+        #main-menu ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+        
+        /* Reglas de estilo para el contenido */
+        .page-header {
+            margin-top: 50px;
+        }
+        
+        .page-content {
+            margin-top: 30px;
+        }
+        
+        .imagen-destacada {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        th {
+            background-color: #f2f2f2;
+        }
+        
+        /* Estilo para el área de testimonios */
+        #testimonios-area {
+            margin-top: 30px;
+            text-align: center;
+        }
+        
+        /* Reglas de estilo para el pie de página */
+        #main-footer {
+            padding: 20px 0;
+            background-color: #f4f4f4;
+            text-align: center;
+            margin-top: 50px;
+        }
+        
+        #bottom-footer {
+            margin-top: 20px;
+        }
+        
+        #footer-menu ul {
+            list-style: none;
+            padding: 0;
+        }
+    </style>
 </head>
 
 <body>
-	
-	<section id="main-header" class="container cf">
-		
-		<a class="logo-header" href="index.html" title="Inicio">
-			<span class="logo"><img src="img/WM4.svg" alt="logo" width="306" height="37"></span>
-			<span class="slogan">Clases de nivelacion personalizadas</span>
-		</a><!-- /#logo-header -->
-		
-		<span class="menu-trigger"><img src="img/menu-responsive.svg" alt="Abrir menú" /></span>
-		
-		<nav id="main-menu" role="navigation" class="closed">
-			<ul>
-				<li class="featured"><a href="index.html">Inicio</a></li>
-				<li class="featured"><a href="servicios.html">Servicios</a></li>
-				<li class="featured"><a href="Nosotros.html">Nosotros</a></li>
-				<li class="featured"><a href="contacto.html">Contacto</a></li>
-			</ul>
-		</nav><!-- /#main-menu -->
-		
-	</section><!-- /#main-header -->
-	
-	<main id="content-area">
-	
-		<article class="single-page portafolio-detalle">
-			
-			
-			<header class="page-header">
-				<div class="container">
-					
-					<h1>Informacion de nuestros servicios educativos.</h1>
-					
-				</div>
-			</header><!-- /.page-header -->
-			
-			
-			
-			<div class="container page-content">
-				
-				<img src="img/Diseño index.png" alt="Nombre del proyecto" class="imagen-destacada">
-				
-				<title>Servicios de Asesoría</title>
-				<style>
-					table {
-						width: 75%;
-						border-collapse: collapse;
-					}
-					th, td {
-						padding: 10px;
-						text-align: left;
-						border-bottom: 1px solid #ddd;
-					}
-					th {
-						background-color: #f2f2f2;
-					}
-				</style>
-			</head>
-			<body>
-			
-			<h2>Servicios de WMAcademy</h2>
-			
-			<table>
-				<tr>
-					<th>Aspecto</th>
-					<th>Descripción</th>
-				</tr>
-				<tr>
-					<td>ASESORÍA</td>
-					<td>Recibe la asesoría personalizada en nuestras instalaciones o de forma virtual.</td>
-				</tr>
-				<tr>
-					<td>REFUERZO</td>
-					<td>Se reforzarán contenidos no comprendidos por completo, que presenten dificultad en el aprendizaje.</td>
-				</tr>
-				<tr>
-					<td>TUTORÍAS GRUPALES</td>
-					<td>De acuerdo con el número de participantes y modo de trabajo, puedes acceder a una explicación en conjunto.</td>
-				</tr>
-				<tr>
-					<td>CONEXIÓN GRUPAL</td>
-					<td>Tendrás la opción de pertenecer a un grupo de acuerdo con tu comodidad para recibir las clases.</td>
-				</tr>
-				<tr>
-					<td>CLASES VIRTUALES INDIVIDUALES</td>
-					<td>Si prefieres recibir clases de forma individual, puedes acceder a esta opción.</td>
-				</tr>
-				<tr>
-					<td>HORARIOS FLEXIBLES</td>
-					<td>Puedes acomodar tus clases en jornadas de la tarde o noches, dependiendo de nuestra disponibilidad y la tuya.</td>
-				</tr>
-				<tr>
-					<td>PLATAFORMA VIRTUAL</td>
-					<td>Contamos con una plataforma virtual modular, donde podrás matricularte y desarrollar actividades bajo la metodología flipped classroom.</td>
-				</tr>
-				<tr>
-					<td>COMPARTIR TUS LOGROS Y EXPERIENCIAS</td>
-					<td>Podrás ingresar a un grupo de Facebook donde podrás compartir tus experiencias de aprendizaje y contenido interesante.</td>
-				</tr>
-				<tr>
-					<td>PRACTICAR CON SIMULADORES</td>
-					<td>Puedes poner a prueba tus habilidades usando simuladores disponibles en la plataforma.</td>
-				</tr>
-			</table>
-						
-			</div><!-- /.content -->
-			
-		</article><!-- /#single-page -->
-	</main><!-- /#content-area -->
-	
-	<aside id="testimonios-area">
-		
-		<div class="container testimonio">
-			<blockquote>
-				<p>Docente catedratico del Instituto Superior Universitario "JAPON"</p>
-				<cite><img src="img/wmora.jpg" alt="Nombre del autor" class="alignleft"><strong>Ing. Walter Mora, MSc.</strong>Director de WMAcademy</cite>
-			</blockquote>
-		</div>
-		
-	</aside><!-- /#testimonios-area -->
-	
-	
-	<footer id="main-footer">
-		
-		<div class="footer-call-to-action">
-			
-			<p class="container">¿Tienes alguna duda? <a href="contacto.html" class="btn">Contacto </a></p>
-			
-		</div><!-- /.footer-call-to-action -->
-		
-		<div id="bottom-footer" class="container cf">
-			
-			<div class="copyright">
-				&copy; 2024  WMAcademy
-			</div><!-- /.copyright -->
-			
-			<nav id="footer-menu">
-				<ul>
-					<li><a href="index.html">Inicio</a></li>
-					<li><a href="servicios.html">Servicios</a></li>
-					<li><a href="Nosotros.html">Nosotros</a></li>
-					<li><a href="contacto.html">Contacto</a></li>
-				</ul>
-			</nav><!-- /#footer-menu -->
-			
-		</div><!-- /#bottom-footer -->
-		
-	</footer><!-- /#main-footer -->
+    <section id="main-header" class="container cf">
+        
+        <a class="logo-header" href="index.html" title="Inicio">
+            <span class="logo"><img src="img/WM4.svg" alt="logo" width="306" height="37"></span>
+            <span class="slogan">Clases de nivelación personalizadas</span>
+        </a><!-- /#logo-header -->
+        
+        <span class="menu-trigger"><img src="img/menu-responsive.svg" alt="Abrir menú" /></span>
+        
+        <nav id="main-menu" role="navigation" class="closed">
+            <ul>
+                <li class="featured"><a href="index.html">Inicio</a></li>
+                <li class="featured"><a href="servicios.html">Servicios</a></li>
+                <li class="featured"><a href="Nosotros.html">Nosotros</a></li>
+                <li class="featured"><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav><!-- /#main-menu -->
+        
+    </section><!-- /#main-header -->
+    
+    <main id="content-area">
+    
+        <article class="single-page portafolio-detalle">
+            
+            
+            <header class="page-header">
+                <div class="container">
+                    
+                    <h1>Información de nuestros servicios educativos</h1>
+                    
+                </div>
+            </header><!-- /.page-header -->
+            
+            
+            
+            <div class="container page-content">
+                
+                <img src="img/Diseño index.png" alt="Nombre del proyecto" class="imagen-destacada">
+                
+                <h2>Servicios de WMAcademy</h2>
+                
+                <table>
+                    <tr>
+                        <th>Aspecto</th>
+                        <th>Descripción</th>
+                    </tr>
+                    <tr>
+                        <td>ASESORÍA</td>
+                        <td>Recibe la asesoría personalizada en nuestras instalaciones o de forma virtual.</td>
+                    </tr>
+                    <tr>
+                        <td>REFUERZO</td>
+                        <td>Se reforzarán contenidos no comprendidos por completo, que presenten dificultad en el aprendizaje.</td>
+                    </tr>
+                    <tr>
+                        <td>TUTORÍAS GRUPALES</td>
+                        <td>De acuerdo con el número de participantes y modo de trabajo, puedes acceder a una explicación en conjunto.</td>
+                    </tr>
+                    <tr>
+                        <td>CONEXIÓN GRUPAL</td>
+                        <td>Tendrás la opción de pertenecer a un grupo de acuerdo con tu comodidad para recibir las clases.</td>
+                    </tr>
+                    <tr>
+                        <td>CLASES VIRTUALES INDIVIDUALES</td>
+                        <td>Si prefieres recibir clases de forma individual, puedes acceder a esta opción.</td>
+                    </tr>
+                    <tr>
+                        <td>HORARIOS FLEXIBLES</td>
+                        <td>Puedes acomodar tus clases en jornadas de la tarde o noches, dependiendo de nuestra disponibilidad y la tuya.</td>
+                    </tr>
+                    <tr>
+                        <td>PLATAFORMA VIRTUAL</td>
+                        <td>Contamos con una plataforma virtual modular, donde podrás matricularte y desarrollar actividades bajo la metodología flipped classroom.</td>
+                    </tr>
+                    <tr>
+                        <td>COMPARTIR TUS LOGROS Y EXPERIENCIAS</td>
+                        <td>Podrás ingresar a un grupo de Facebook donde podrás compartir tus experiencias de aprendizaje y contenido interesante.</td>
+                    </tr>
+                    <tr>
+                        <td>PRACTICAR CON SIMULADORES</td>
+                        <td>Puedes poner a prueba tus habilidades usando simuladores disponibles en la plataforma.</td>
+                    </tr>
+                </table>
+                                
+            </div><!-- /.content -->
+            
+        </article><!-- /#single-page -->
+    </main><!-- /#content-area -->
+    
+    <aside id="testimonios-area">
+        
+        <div class="container testimonio">
+            <blockquote>
+                <p>Docente catedrático del Instituto Superior Universitario "JAPON"</p>
+                <cite><img src="img/wmora.jpg" alt="Nombre del autor" class="alignleft"><strong>Ing. Walter Mora, MSc.</strong>Director de WMAcademy</cite>
+            </blockquote>
+        </div>
+        
+    </aside><!-- /#testimonios-area -->
+    
+    
+    <footer id="main-footer">
+        
+        <div class="footer-call-to-action">
+            
+            <p class="container">¿Tienes alguna duda? <a href="contacto.html" class="btn">Contacto </a></p>
+            
+        </div><!-- /.footer-call-to-action -->
+        
+        <div id="bottom-footer" class="container cf">
+            
+            <div class="copyright">
+                &copy; 2024  WMAcademy
+            </div><!-- /.copyright -->
+            
+            <nav id="footer-menu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="Nosotros.html">Nosotros</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav><!-- /#footer-menu -->
+            
+        </div><!-- /#bottom-footer -->
+        
+    </footer><!-- /#main-footer -->
 
 
-	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
-	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-	<script src="js/rem.min.js"></script>
-	<script src="js/functions.js"></script>
-	
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/rem.min.js"></script>
+    <script src="js/functions.js"></script>
 </body>
 </html>
