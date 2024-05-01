@@ -2,23 +2,65 @@
 <html lang="es">
 <head>
 	<meta charset="utf-8">
-	<title>Walter Mora / Nivelacion online</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<title>Walter Mora / Nivelación online</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="author" content="Walter Mora">
 	
-	<link rel="stylesheet" href="style.css" >
-	
-	
-
+	<link rel="stylesheet" href="style.css">
+	<style>
+		/* Reglas de estilo CSS adicionales para hacer que el diseño sea responsive */
+		.container {
+			width: 90%;
+			margin: 0 auto;
+		}
+		
+		/* Estilo para el menú */
+		#main-menu ul {
+			list-style: none;
+			padding: 0;
+			text-align: center;
+		}
+		
+		/* Reglas de estilo para los elementos dentro de la sección servicios-home */
+		#servicios-home .cols {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+		}
+		
+		.servicio-resumen {
+			width: 30%; /* Ajustar el ancho de las columnas según sea necesario */
+			margin-bottom: 20px;
+		}
+		
+		/* Estilo para el área de testimonios */
+		#testimonios-area .container {
+			max-width: 1000px; /* Limitar el ancho del área de testimonios */
+		}
+		
+		/* Reglas de estilo para el pie de página */
+		#main-footer {
+			padding: 20px 0;
+			background-color: #f4f4f4;
+			text-align: center;
+		}
+		
+		#bottom-footer {
+			margin-top: 20px;
+		}
+		
+		#footer-menu ul {
+			list-style: none;
+			padding: 0;
+		}
+	</style>
 </head>
 
 <body>
-	
 	<header id="main-header" class="container cf">
-		
 		<div class="logo-header">
 			<h1 class="logo"><img src="img/WM4.svg" alt="logo" width="306" height="37"></h1>
-			<h2 class="slogan">Clases de nivelacion personalizadas</h2>
+			<h2 class="slogan">Clases de nivelación personalizadas</h2>
 		</div><!-- /#logo-header -->
 		
 		<span class="menu-trigger"><img src="img/menu-responsive.svg" alt="Abrir menú" /></span>
@@ -31,33 +73,24 @@
 				<li class="featured"><a href="contacto.html">Contacto</a></li>
 			</ul>
 		</nav><!-- /#main-menu -->
-		
 	</header><!-- /#main-header -->
 	
 	<main id="content-area">
-	
-
 		<section id="hero-container">
-			
 			<article id="hero" class="container">
 				<span class="dispositivos"><img src="img/Docencia-01.jpg" alt="Docencia-01"></span>
 				<header>
 					<h2>Nivelación Online</h2>
 				</header>
 				<p>Recibe clases de nivelación personalizadas, mejora tus conocimientos.</p>
-				<a href="contacto.html" class="btn">Envianos tus dudas aqui</a> 
-				<a href="Nosotros.html" class="btn btn-light">Mas informacion del sitio</a>
+				<a href="contacto.html" class="btn">Envíanos tus dudas aquí</a> 
+				<a href="Nosotros.html" class="btn btn-light">Más información del sitio</a>
 			</article>
-			
 		</section><!-- /#hero-container -->
 		
-		
 		<section id="servicios-home" class="container">
-			
 			<div class="cols cf">
-				
 				<article class="servicio-resumen col3">
-					
 					<div class="icono">
 						<figure class="icono-servicio">
 							<img src="img/icono-consultoria.svg" alt="Consultoría" />
@@ -65,17 +98,12 @@
 					</div><!-- /.icono -->
 					
 					<div class="text">
-						
 						<h2>ASIGNATURAS</h2>
-						
-						<p>Te puedo asesorar en asignaturas relacionadas a las ciencias exactas como matematicas y fisica </p>
+						<p>Te puedo asesorar en asignaturas relacionadas a las ciencias exactas como matemáticas y física.</p>
 					</div><!-- /.text -->
-					
 				</article><!-- /.servicio-resumen -->
 				
-				
 				<article class="servicio-resumen col3">
-					
 					<div class="icono">
 						<figure class="icono-servicio">
 							<img src="img/icono-diseno.svg" alt="Diseño" />
@@ -83,18 +111,12 @@
 					</div><!-- /.icono -->
 					
 					<div class="text">
-						
-						<h2>METODOLOGIA</h2>
-						
-						<p>Las clases se pueden dar de manera presencial o telematica, mediante el uso de plataformas virtuales en clases sincronas</p>
+						<h2>METODOLOGÍA</h2>
+						<p>Las clases se pueden dar de manera presencial o telemática, mediante el uso de plataformas virtuales en clases síncronas.</p>
 					</div><!-- /.text -->
-					
 				</article><!-- /.servicio-resumen -->
-
-
-
+				
 				<article class="servicio-resumen col3">
-					
 					<div class="icono">
 						<figure class="icono-servicio">
 							<img src="img/icono-desarrollo.svg" alt="Desarrollo" />
@@ -102,70 +124,51 @@
 					</div><!-- /.icono -->
 					
 					<div class="text">
-						
 						<h2>Desarrollo</h2>
-						
-						<p>Te puedo ayudar en las asignaturas relacionadas al Area de la Matematica, Fisica y Razonamiento Logico </p>
+						<p>Te puedo ayudar en las asignaturas relacionadas al área de la matemática, física y razonamiento lógico.</p>
 					</div><!-- /.text -->
-				
 				</article><!-- /.servicio-resumen -->
-				
 			</div><!-- /.cols -->
 			
 			<div class="text-center">
 				<a href="Articulos.html" class="btn btn-light">Ver más detalles</a>
 			</div>
-			
 		</section><!-- /#servicios-home -->
-	
-
 	</main><!-- /#content-area -->
 	
-	
 	<aside id="testimonios-area">
-		
 		<div class="flexslider container">
 			<div class="slides">
-				
 				<div class="testimonio">
 					<blockquote>
-						<p>Docente catedratico del Instituto Superior Universitario "JAPON"</p>
-						<cite><img src="img/wmora.jpg" alt="Nombre del autor" class="alignleft"><strong>Ing. Walter Mora, MSc.</strong>DOCENTE - EDUCACION SECUNDARIA Y SUPERIOR</cite>
+						<p>Docente catedrático del Instituto Superior Universitario "JAPON"</p>
+						<cite><img src="img/wmora.jpg" alt="Nombre del autor" class="alignleft"><strong>Ing. Walter Mora, MSc.</strong>DOCENTE - EDUCACIÓN SECUNDARIA Y SUPERIOR</cite>
 					</blockquote>
 				</div><!-- /.testimonio -->
 				
 				<div class="testimonio">
 					<blockquote>
-						<p>Docente con experiencia en educacion de escolarizacion a nivel de BGU y en eduacion Superior, con mas de 8 años de experiencia.</p>
-						<cite><img src="img/wmora.jpg" alt="Nombre del autor" class="alignleft"><strong>Ing. Walter Mora, MSc.</strong>DOCENTE - EDUCACION SECUNDARIA Y SUPERIOR</cite>
+						<p>Docente con experiencia en educación de escolarización a nivel de BGU y en educación superior, con más de 8 años de experiencia.</p>
+						<cite><img src="img/wmora.jpg" alt="Nombre del autor" class="alignleft"><strong>Ing. Walter Mora, MSc.</strong>DOCENTE - EDUCACIÓN SECUNDARIA Y SUPERIOR</cite>
 					</blockquote>
 				</div><!-- /.testimonio -->
 		
 				<div class="testimonio">
 					<blockquote>
-						<p>Docente con certificado de Experto en Tecnologia Educativa, dado por la comunidad FATLA.</p>
-						<cite><img src="img/wmora.jpg" alt="Nombre del autor" class="alignleft"><strong>Ing. Walter Mora, MSc.</strong>DOCENTE - EDUCACION SECUNDARIA Y SUPERIOR</cite>
+						<p>Docente con certificado de Experto en Tecnología Educativa, dado por la comunidad FATLA.</p>
+						<cite><img src="img/wmora.jpg" alt="Nombre del autor" class="alignleft"><strong>Ing. Walter Mora, MSc.</strong>DOCENTE - EDUCACIÓN SECUNDARIA Y SUPERIOR</cite>
 					</blockquote>
 				</div><!-- /.testimonio -->
-		
 			</div><!-- /.slides -->
 		</div><!-- /.flexslider -->
-		
 	</aside><!-- /#testimonios-area -->
 
-	
-	
-	
 	<footer id="main-footer">
-		
 		<div class="footer-call-to-action">
-			
 			<p class="container">¿Tienes alguna duda más?<a href="contacto.html" class="btn">Contacto</a></p>
-			
 		</div><!-- /.footer-call-to-action -->
 		
 		<div id="bottom-footer" class="container cf">
-			
 			<div class="copyright">
 				&copy; 2024  WMAcademy
 			</div><!-- /.copyright -->
@@ -178,21 +181,16 @@
 					<li><a href="contacto.html">Contacto</a></li>
 				</ul>
 			</nav><!-- /#footer-menu -->
-			
 		</div><!-- /#bottom-footer -->
-		
 	</footer><!-- /#main-footer -->
-
 
 	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
 	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 	<script src="js/jquery.flexslider-min.js"></script>
 	<script src="js/rem.min.js"></script>
 	<script src="js/functions.js"></script>
-	
 	<script>
 		jQuery('document').ready(function($){
-		
 			$('.flexslider').flexslider({
 				selector: ".slides > .testimonio",
 				animation: "slide",
@@ -201,9 +199,7 @@
 				prevText: "Anterior",
 				nextText: "Siguiente", 
 			});
-		
 		});
 	</script>
-	
 </body>
 </html>
