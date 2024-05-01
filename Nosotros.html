@@ -1,188 +1,242 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<meta charset="utf-8">
-	<title>Walter Mora / Nivelacion online</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-	<meta name="author" content="Walter Mora">
-	
-	<link rel="stylesheet" href="style.css" >
-	
-	
+    <meta charset="utf-8">
+    <title>Walter Mora / Nivelación online</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Walter Mora">
+    
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Reglas de estilo CSS adicionales para hacer que el diseño sea responsive */
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            max-width: 1200px; /* Limitar el ancho máximo para evitar que la página se estire demasiado en pantallas grandes */
+        }
+        
+        /* Estilo para el menú */
+        #main-menu ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+        
+        /* Reglas de estilo para el contenido */
+        .page-header {
+            margin-top: 50px;
+        }
+        
+        .list-content {
+            margin-top: 30px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        
+        .portafolio-resumen {
+            width: calc(33.33% - 20px);
+            margin-bottom: 20px;
+            box-sizing: border-box;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        
+        .portafolio-resumen img {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        /* Reglas de estilo para el pie de página */
+        #main-footer {
+            padding: 20px 0;
+            background-color: #f4f4f4;
+            text-align: center;
+            margin-top: 50px;
+        }
+        
+        #bottom-footer {
+            margin-top: 20px;
+        }
+        
+        #footer-menu ul {
+            list-style: none;
+            padding: 0;
+        }
+    </style>
 </head>
 
 <body>
-	
-	<section id="main-header" class="container cf">
-		
-		<a class="logo-header" href="index.html" title="Inicio">
-			<span class="logo"><img src="img/WM4.svg" alt="logo" width="306" height="37"></span>
-			<span class="slogan">Clases de nivelacion personalizadas</span>
-		</a><!-- /#logo-header -->
-		
-		<span class="menu-trigger"><img src="img/menu-responsive.svg" alt="Abrir menú" /></span>
-		
-		<nav id="main-menu" role="navigation" class="closed">
-			<ul>
-				<li class="featured"><a href="index.html">Inicio</a></li>
-				<li class="featured"><a href="servicios.html">Servicios</a></li>
-				<li class="featured"><a href="Nosotros.html">Nosotros</a></li>
-				<li class="featured"><a href="contacto.html">Contacto</a></li>
-			</ul>
-		</nav><!-- /#main-menu -->
-		
-	</section><!-- /#main-header -->
-	
-	<main id="content-area">
-	
-		<div class="list-page">
-			
-			
-			<header class="page-header">
-				<div class="container">
-					
-					<h1>Nosotros</h1>
-					
-					<p>WMAcadmy es una academia de estudios, que presta servicios de nivelacion y clases particulares en modalidad presencial en nuestras instalaciones o de manera remota de forma virtual.</p>
-				
-				</div>
-			</header><!-- /.page-header -->
-			
-			
-			
-			<div class="container list-content">
-			
-				<div class="portafolio-list cols">
-					
-					
-					<article class="portafolio-resumen col3">
-						<img src="img/Nosotros_01.jpeg" alt="Nombre del proyecto" />
-						<header>
-							<h2><a href="Articulos-detalle.html">Asesoria</a></h2>
-						</header>
-						<p> Recibe la asesoría personalizada en nuestras instalaciones. </p>
-						<a href="Articulos-detalle.html" class="btn btn-light">Ver mas detalles</a>
-					</article><!-- /.portafolio-resumen -->
-					
-					
-					<article class="portafolio-resumen col3">
-						<img src="img/Nosotros_03.jpg" alt="Nombre del proyecto" />
-						<header>
-							<h2><a href="Articulos-detalle.html">Refuerzo</a></h2>
-						</header>
-						<p> Se reforzará contenidos no comprendidos por completo, que presenten dificultad en el aprendizaje. </p>
-						<a href="Articulos-detalle.html" class="btn btn-light">Ver mas detalles</a>
-					</article><!-- /.portafolio-resumen -->
-					
-					
-					<article class="portafolio-resumen col3">
-						<img src="img/Nosotros_06.jpg" alt="Nombre del proyecto" />
-						<header>
-							<h2><a href="Articulos-detalle.html">Tutorias grupales</a></h2>
-						</header>
-						<p> De acuerdo con el número de participantes y modo de trabajo puedes acceder a una explicación en conjunto. </p>
-						<a href="Articulos-detalle.html" class="btn btn-light">Ver mas detalles</a>
-					</article><!-- /.portafolio-resumen -->
-					
-					
-					<article class="portafolio-resumen col3">
-						<img src="img/Nosotros_04.png" alt="Nombre del proyecto" />
-						<header>
-							<h2><a href="Articulos-detalle.html">Conexion grupal</a></h2>
-						</header>
-						<p> Tendrás la opción de pertenecer a un grupo de acuerdo con tu comodidad para recibir las clases. </p>
-						<a href="Articulos-detalle.html" class="btn btn-light">Ver mas detalles</a>
-					</article><!-- /.portafolio-resumen -->
-					
-					
-					<article class="portafolio-resumen col3">
-						<img src="img/Nosotros_05.png" alt="Nombre del proyecto" />
-						<header>
-							<h2><a href="Articulos-detalle.html">Clases virtuales individuales</a></h2>
-						</header>
-						<p> Si tu comodidad es recibir las clases de forma individual puedes acceder a esta opción. </p>
-						<a href="Articulos-detalle.html" class="btn btn-light">Ver mas detalles</a>
-					</article><!-- /.portafolio-resumen -->
-					
-					
-					<article class="Articulo-resumen col3">
-						<img src="img/Horario_flexible.jpg" alt="Nombre del proyecto" />
-						<header>
-							<h2><a href="Articulos-detalle.html">Horarios flexibles</a></h2>
-						</header>
-						<p> Puedes acomodar tus clases en jornadas de la tarde o noches, dependiendo de nuestra disponibilidad y la tuya. </p>
-						<a href="Articulos-detalle.html" class="btn btn-light">Ver mas detalles</a>
-					</article><!-- /.portafolio-resumen -->
+    <section id="main-header" class="container cf">
+        
+        <a class="logo-header" href="index.html" title="Inicio">
+            <span class="logo"><img src="img/WM4.svg" alt="logo" width="306" height="37"></span>
+            <span class="slogan">Clases de nivelación personalizadas</span>
+        </a><!-- /#logo-header -->
+        
+        <span class="menu-trigger"><img src="img/menu-responsive.svg" alt="Abrir menú" /></span>
+        
+        <nav id="main-menu" role="navigation" class="closed">
+            <ul>
+                <li class="featured"><a href="index.html">Inicio</a></li>
+                <li class="featured"><a href="servicios.html">Servicios</a></li>
+                <li class="featured"><a href="Nosotros.html">Nosotros</a></li>
+                <li class="featured"><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav><!-- /#main-menu -->
+        
+    </section><!-- /#main-header -->
+    
+    <main id="content-area">
+    
+        <div class="list-page">
+            
+            
+            <header class="page-header">
+                <div class="container">
+                    
+                    <h1>Nosotros</h1>
+                    
+                    <p>WMAcadmy es una academia de estudios, que presta servicios de nivelación y clases particulares en modalidad presencial en nuestras instalaciones o de manera remota de forma virtual.</p>
+                
+                </div>
+            </header><!-- /.page-header -->
+            
+            
+            
+            <div class="container list-content">
+            
+                <div class="portafolio-list cols">
+                    
+                    
+                    <article class="portafolio-resumen col3">
+                        <img src="img/Nosotros_01.jpeg" alt="Nombre del proyecto" />
+                        <header>
+                            <h2><a href="Articulos-detalle.html">Asesoría</a></h2>
+                        </header>
+                        <p> Recibe la asesoría personalizada en nuestras instalaciones. </p>
+                        <a href="Articulos-detalle.html" class="btn btn-light">Ver más detalles</a>
+                    </article><!-- /.portafolio-resumen -->
+                    
+                    
+                    <article class="portafolio-resumen col3">
+                        <img src="img/Nosotros_03.jpg" alt="Nombre del proyecto" />
+                        <header>
+                            <h2><a href="Articulos-detalle.html">Refuerzo</a></h2>
+                        </header>
+                        <p> Se reforzarán contenidos no comprendidos por completo, que presenten dificultad en el aprendizaje. </p>
+                        <a href="Articulos-detalle.html" class="btn btn-light">Ver más detalles</a>
+                    </article><!-- /.portafolio-resumen -->
+                    
+                    
+                    <article class="portafolio-resumen col3">
+                        <img src="img/Nosotros_06.jpg" alt="Nombre del proyecto" />
+                        <header>
+                            <h2><a href="Articulos-detalle.html">Tutorías grupales</a></h2>
+                        </header>
+                        <p> De acuerdo con el número de participantes y modo de trabajo puedes acceder a una explicación en conjunto. </p>
+                        <a href="Articulos-detalle.html" class="btn btn-light">Ver más detalles</a>
+                    </article><!-- /.portafolio-resumen -->
+                    
+                    
+                    <article class="portafolio-resumen col3">
+                        <img src="img/Nosotros_04.png" alt="Nombre del proyecto" />
+                        <header>
+                            <h2><a href="Articulos-detalle.html">Conexión grupal</a></h2>
+                        </header>
+                        <p> Tendrás la opción de pertenecer a un grupo de acuerdo con tu comodidad para recibir las clases. </p>
+                        <a href="Articulos-detalle.html" class="btn btn-light">Ver más detalles</a>
+                    </article><!-- /.portafolio-resumen -->
+                    
+                    
+                    <article class="portafolio-resumen col3">
+                        <img src="img/Nosotros_05.png" alt="Nombre del proyecto" />
+                        <header>
+                            <h2><a href="Articulos-detalle.html">Clases virtuales individuales</a></h2>
+                        </header>
+                        <p> Si tu comodidad es recibir las clases de forma individual puedes acceder a esta opción. </p>
+                        <a href="Articulos-detalle.html" class="btn btn-light">Ver más detalles</a>
+                    </article><!-- /.portafolio-resumen -->
+                    
+                    
+                    <article class="portafolio-resumen col3">
+                        <img src="img/Horario_flexible.jpg" alt="Nombre del proyecto" />
+                        <header>
+                            <h2><a href="Articulos-detalle.html">Horarios flexibles</a></h2>
+                        </header>
+                        <p> Puedes acomodar tus clases en jornadas de la tarde o noches, dependiendo de nuestra disponibilidad y la tuya. </p>
+                        <a href="Articulos-detalle.html" class="btn btn-light">Ver más detalles</a>
+                    </article><!-- /.portafolio-resumen -->
 
 
-					<article class="Articulo-resumen col3">
-						<img src="img/Nosotros_10.png" alt="Nombre del proyecto" />
-						<header>
-							<h2><a href="Articulos-detalle.html">Plataforma virtual</a></h2>
-						</header>
-						<p> Contamos con una plataforma virtual modular, donde podrás matricularte y desarrollar actividades bajo la metodología flipped classroom. </p>
-						<a href="Articulos-detalle.html" class="btn btn-light">Ver mas detalles</a>
-					</article><!-- /.portafolio-resumen -->
+                    <article class="portafolio-resumen col3">
+                        <img src="img/Nosotros_10.png" alt="Nombre del proyecto" />
+                        <header>
+                            <h2><a href="Articulos-detalle.html">Plataforma virtual</a></h2>
+                        </header>
+                        <p> Contamos con una plataforma virtual modular, donde podrás matricularte y desarrollar actividades bajo la metodología flipped classroom. </p>
+                        <a href="Articulos-detalle.html" class="btn btn-light">Ver más detalles</a>
+                    </article><!-- /.portafolio-resumen -->
 
 
-					<article class="Articulo-resumen col3">
-						<img src="img/Imagen5.png" alt="Nombre del proyecto" />
-						<header>
-							<h2><a href="Articulos-detalle.html">Comparte tus logros y experiencias</a></h2>
-						</header>
-						<p> Podrás ingresar a un grupo de Facebook donde podrás compartir tus experiencias de tu aprendizaje, además de compartir contenido interesante. </p>
-						<a href="Articulos-detalle.html" class="btn btn-light">Ver mas detalles</a>
-					</article><!-- /.portafolio-resumen -->
+                    <article class="portafolio-resumen col3">
+                        <img src="img/Imagen5.png" alt="Nombre del proyecto" />
+                        <header>
+                            <h2><a href="Articulos-detalle.html">Comparte tus logros y experiencias</a></h2>
+                        </header>
+                        <p> Podrás ingresar a un grupo de Facebook donde podrás compartir tus experiencias de tu aprendizaje, además de compartir contenido interesante. </p>
+                        <a href="Articulos-detalle.html" class="btn btn-light">Ver más detalles</a>
+                    </article><!-- /.portafolio-resumen -->
 
 
-					<article class="Articulo-resumen col3">
-						<img src="img/Nosotros_08.png" alt="Nombre del proyecto" />
-						<header>
-							<h2><a href="Articulos-detalle.html">Practica con simuladores</a></h2>
-						</header>
-						<p> Puedes poner a prueba tus cálculos usando los simuladores que te ofrece la plataforma. </p>
-						<a href="Articulos-detalle.html" class="btn btn-light">Ver mas detalles</a>
-					</article><!-- /.portafolio-resumen -->
-				</div>
-			
-			</div><!-- /.content -->
-			
-		</div><!-- /#single-page -->
-	</main><!-- /#content-area -->
-	
-	
-	<footer id="main-footer">
-		
-		<div class="footer-call-to-action">
-			
-			<p class="container">¿Tienes alguna duda? <a href="contacto.html" class="btn"> Contacto</a></p>
-			
-		</div><!-- /.footer-call-to-action -->
-		
-		<div id="bottom-footer" class="container cf">
-			
-			<div class="copyright">
-				&copy; 2024  WMAcademy
-			</div><!-- /.copyright -->
-			
-			<nav id="footer-menu">
-				<ul>
-					<li><a href="index.html">Inicio</a></li>
-					<li><a href="servicios.html">Servicios</a></li>
-					<li><a href="Nosotros.html">Nosotros</a></li>
-					<li><a href="contacto.html">Contacto</a></li>
-				</ul>
-			</nav><!-- /#footer-menu -->
-			
-		</div><!-- /#bottom-footer -->
-		
-	</footer><!-- /#main-footer -->
+                    <article class="portafolio-resumen col3">
+                        <img src="img/Nosotros_08.png" alt="Nombre del proyecto" />
+                        <header>
+                            <h2><a href="Articulos-detalle.html">Practica con simuladores</a></h2>
+                        </header>
+                        <p> Puedes poner a prueba tus cálculos usando los simuladores que te ofrece la plataforma. </p>
+                        <a href="Articulos-detalle.html" class="btn btn-light">Ver más detalles</a>
+                    </article><!-- /.portafolio-resumen -->
+                </div>
+            
+            </div><!-- /.content -->
+            
+        </div><!-- /#single-page -->
+    </main><!-- /#content-area -->
+    
+    
+    <footer id="main-footer">
+        
+        <div class="footer-call-to-action">
+            
+            <p class="container">¿Tienes alguna duda? <a href="contacto.html" class="btn"> Contacto</a></p>
+            
+        </div><!-- /.footer-call-to-action -->
+        
+        <div id="bottom-footer" class="container cf">
+            
+            <div class="copyright">
+                &copy; 2024  WMAcademy
+            </div><!-- /.copyright -->
+            
+            <nav id="footer-menu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="Nosotros.html">Nosotros</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav><!-- /#footer-menu -->
+            
+        </div><!-- /#bottom-footer -->
+        
+    </footer><!-- /#main-footer -->
 
 
-	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
-	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-	<script src="js/rem.min.js"></script>
-	<script src="js/functions.js"></script>
-	
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/rem.min.js"></script>
+    <script src="js/functions.js"></script>
 </body>
 </html>
