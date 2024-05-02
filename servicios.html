@@ -1,141 +1,170 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<meta charset="utf-8">
-	<title>Walter Mora / Nivelacion online</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-	<meta name="author" content="Walter Mora">
-	
-	<link rel="stylesheet" href="style.css" >
-	
-	
+    <meta charset="utf-8">
+    <title>Walter Mora / Nivelacion online</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Walter Mora">
+    
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Estilo para el contenedor principal */
+        .detalle-servicio {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 30px;
+        }
+        
+        .icono-servicio {
+            max-width: 100px;
+            margin: 0 auto;
+        }
+        
+        .text {
+            text-align: center;
+        }
 
+        /* Estilo para el pie de página */
+        #main-footer {
+            padding: 20px 0;
+            background-color: #f4f4f4;
+            text-align: center;
+            margin-top: 50px;
+        }
+        
+        #bottom-footer {
+            margin-top: 20px;
+        }
+        
+        #footer-menu ul {
+            list-style: none;
+            padding: 0;
+        }
+    </style>
 </head>
 <body>
-	
-	<section id="main-header" class="container cf">
-		
-		<a class="logo-header" href="img/WM4.svg" title="Inicio">
-			<span class="logo"><img src="img/WM4.svg" alt="logo" width="306" height="37"></span>
-			<span class="slogan">Clases de nivelacion personalizadas</span>
-		</a><!-- /#logo-header -->
-		
-		<span class="menu-trigger"><img src="img/menu-responsive.svg" alt="Abrir menú" /></span>
-		
-		<nav id="main-menu" role="navigation" class="closed">
-			<ul>
-				<li class="featured"><a href="index.html">Inicio</a></li>
-				<li class="featured"><a href="servicios.html">Servicios</a></li>
-				<li class="featured"><a href="Nosotros.html">Nosotros</a></li>
-				<li class="featured"><a href="contacto.html">Contacto</a></li>
-			</ul>
-		</nav><!-- /#main-menu -->
-		
-	</section><!-- /#main-header -->
-	
-	<main id="content-area">
-	
-		<article class="single-page">
-			
-			
-			<header class="page-header">
-				<div class="container">
-					
-					<h1>Servicios</h1>
-					
-					<p>	Informate acerca de nuestros servicios. </p>
-				
-				</div>
-			</header><!-- /.page-header -->
-			
-			
-			
-			<div class="container page-content">
-			
-				<section class="detalle-servicio">
-					<div class="icono">
-						<figure class="icono-servicio">
-							<img src="img/icono-consultoria.svg" alt="Consultoría" />
-						</figure><!-- /.icono-servicio -->
-					</div><!-- /.icono -->
-					<div class="text">
-						
-						<h2>Clases particulares</h2>
-						
-						<p>Aquí podrás encontrar ayuda con tus ejercicios de física, además de asesoría en temas o contenidos complejos de física o matemáticas.</p>
-					</div><!-- /.text -->
-				</section><!-- /.detalle-servicio -->
-				
-				
-				
-				<section class="detalle-servicio">
-					<div class="icono">
-						<figure class="icono-servicio">
-							<img src="img/icono-diseno.svg" alt="Diseño" />
-						</figure><!-- /.icono-servicio -->
-					</div><!-- /.icono -->
-					<div class="text">
-						
-						<h2>Nivelación intensiva</h2>
-						
-						<p>Si deseas una nivelación más completa, te invito a que recibas clases programadas de acuerdo con tu disponibilidad y a la nuestra, tu escoges el tema de física que deseas nivelarte. </p>
-					</div><!-- /.text -->
-				</section><!-- /.detalle-servicio -->
-				
-				
-				<section class="detalle-servicio">
-					<div class="icono">
-						<figure class="icono-servicio">
-							<img src="img/icono-desarrollo.svg" alt="Desarrollo" />
-						</figure><!-- /.icono-servicio -->
-					</div><!-- /.icono -->
-					<div class="text">
-						
-						<h2>Curso virtual</h2>
-						
-						<p> Te invito a que desarrolles tus conocimientos, particularmente en el de la CINEMÁTICA que es una de las ramas más importantes de la física, con el curso que te ofrezco.</p>
-					</div><!-- /.text -->
-				</section><!-- /.detalle-servicio -->
-				
-							
-			</div><!-- /.content -->
-			
-		</article><!-- /#single-page -->
-	</main><!-- /#content-area -->
-	
-	
-	<footer id="main-footer">
-		
-		<div class="footer-call-to-action">
-			
-			<p class="container">¿Tienes alguna duda más?<a href="contacto.html" class="btn">Contacto</a></p>
-			
-		</div><!-- /.footer-call-to-action -->
-		
-		<div id="bottom-footer" class="container cf">
-			
-			<div class="copyright">
-				&copy; 2024  WMAcademy
-			</div><!-- /.copyright -->
-			
-			<nav id="footer-menu">
-				<ul>
-					<li><a href="index.html">Inicio</a></li>
-					<li><a href="servicios.html">Servicios</a></li>
-					<li><a href="Nosotros.html">Nosotros</a></li>
-					<li><a href="contacto.html">Contacto</a></li>
-				</ul>
-			</nav><!-- /#footer-menu -->
-			
-		</div><!-- /#bottom-footer -->
-		
-	</footer><!-- /#main-footer -->
+    <section id="main-header" class="container cf">
+        
+        <a class="logo-header" href="img/WM4.svg" title="Inicio">
+            <span class="logo"><img src="img/WM4.svg" alt="logo" width="306" height="37"></span>
+            <span class="slogan">Clases de nivelacion personalizadas</span>
+        </a><!-- /#logo-header -->
+        
+        <span class="menu-trigger"><img src="img/menu-responsive.svg" alt="Abrir menú" /></span>
+        
+        <nav id="main-menu" role="navigation" class="closed">
+            <ul>
+                <li class="featured"><a href="index.html">Inicio</a></li>
+                <li class="featured"><a href="servicios.html">Servicios</a></li>
+                <li class="featured"><a href="Nosotros.html">Nosotros</a></li>
+                <li class="featured"><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav><!-- /#main-menu -->
+        
+    </section><!-- /#main-header -->
+    
+    <main id="content-area">
+    
+        <article class="single-page">
+            
+            
+            <header class="page-header">
+                <div class="container">
+                    
+                    <h1>Servicios</h1>
+                    
+                    <p>Informate acerca de nuestros servicios.</p>
+                
+                </div>
+            </header><!-- /.page-header -->
+            
+            
+            
+            <div class="container page-content">
+            
+                <section class="detalle-servicio">
+                    <div class="icono">
+                        <figure class="icono-servicio">
+                            <img src="img/icono-consultoria.svg" alt="Consultoría" />
+                        </figure><!-- /.icono-servicio -->
+                    </div><!-- /.icono -->
+                    <div class="text">
+                        
+                        <h2>Clases particulares</h2>
+                        
+                        <p>Aquí podrás encontrar ayuda con tus ejercicios de física, además de asesoría en temas o contenidos complejos de física o matemáticas.</p>
+                    </div><!-- /.text -->
+                </section><!-- /.detalle-servicio -->
+                
+                
+                
+                <section class="detalle-servicio">
+                    <div class="icono">
+                        <figure class="icono-servicio">
+                            <img src="img/icono-diseno.svg" alt="Diseño" />
+                        </figure><!-- /.icono-servicio -->
+                    </div><!-- /.icono -->
+                    <div class="text">
+                        
+                        <h2>Nivelación intensiva</h2>
+                        
+                        <p>Si deseas una nivelación más completa, te invito a que recibas clases programadas de acuerdo con tu disponibilidad y a la nuestra, tu escoges el tema de física que deseas nivelarte.</p>
+                    </div><!-- /.text -->
+                </section><!-- /.detalle-servicio -->
+                
+                
+                <section class="detalle-servicio">
+                    <div class="icono">
+                        <figure class="icono-servicio">
+                            <img src="img/icono-desarrollo.svg" alt="Desarrollo" />
+                        </figure><!-- /.icono-servicio -->
+                    </div><!-- /.icono -->
+                    <div class="text">
+                        
+                        <h2>Curso virtual</h2>
+                        
+                        <p>Te invito a que desarrolles tus conocimientos, particularmente en el de la CINEMÁTICA que es una de las ramas más importantes de la física, con el curso que te ofrezco.</p>
+                    </div><!-- /.text -->
+                </section><!-- /.detalle-servicio -->
+                
+                            
+            </div><!-- /.content -->
+            
+        </article><!-- /#single-page -->
+    </main><!-- /#content-area -->
+    
+    
+    <footer id="main-footer">
+        
+        <div class="footer-call-to-action">
+            
+            <p class="container">¿Tienes alguna duda más?<a href="contacto.html" class="btn">Contacto</a></p>
+            
+        </div><!-- /.footer-call-to-action -->
+        
+        <div id="bottom-footer" class="container cf">
+            
+            <div class="copyright">
+                &copy; 2024  WMAcademy
+            </div><!-- /.copyright -->
+            
+            <nav id="footer-menu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="Nosotros.html">Nosotros</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav><!-- /#footer-menu -->
+            
+        </div><!-- /#bottom-footer -->
+        
+    </footer><!-- /#main-footer -->
 
 
-	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
-	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-	<script src="js/rem.min.js"></script>
-	<script src="js/functions.js"></script>
-	
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/rem.min.js"></script>
+    <script src="js/functions.js"></script>
 </body>
 </html>
