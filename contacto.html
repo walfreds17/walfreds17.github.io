@@ -64,8 +64,11 @@
         /* Estilos para dispositivos móviles */
         @media only screen and (max-width: 768px) {
             .whatsapp-contact {
-                width: 90%; /* Reducir el ancho en dispositivos pequeños */
-                max-width: none; /* Eliminar el máximo ancho para que se ajuste automáticamente */
+                max-width: 90%; /* Reducir el ancho en dispositivos pequeños */
+            }
+            
+            .container {
+                padding: 0 20px; /* Añadir un espacio a los lados del contenedor en dispositivos pequeños */
             }
         }
     </style>
@@ -97,8 +100,8 @@
         <article class="single-page">
             
             
-            <header class="page-header">
-                <div class="container">
+            <header class="page-header container"> <!-- Agregamos la clase "container" al encabezado -->
+                <div>
                     
                     <h1>Contacto</h1>
                     
@@ -109,7 +112,7 @@
             
             
             
-            <div class="container page-content">
+            <div class="container page-content"> <!-- Agregamos la clase "container" al contenido -->
             
                 <div class="whatsapp-contact">
                     <!-- Icono de WhatsApp -->
@@ -129,9 +132,9 @@
     
     <footer id="main-footer">
         
-        <div class="footer-call-to-action">
+        <div class="footer-call-to-action container"> <!-- Agregamos la clase "container" al área de llamado a la acción -->
             
-            <p class="container">¿Tienes alguna duda más? <a href="contacto.html" class="btn">Contacto</a></p>
+            <p>¿Tienes alguna duda más? <a href="contacto.html" class="btn">Contacto</a></p>
             
         </div><!-- /.footer-call-to-action -->
         
@@ -161,5 +164,7 @@
     <script src="js/functions.js"></script>
 </body>
 </html>
+
+
 
 
