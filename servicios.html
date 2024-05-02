@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="utf-8">
-    <title>Walter Mora / Nivelacion online</title>
+    <title>Walter Mora / Nivelación online</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Walter Mora">
     
@@ -39,6 +39,39 @@
         #footer-menu ul {
             list-style: none;
             padding: 0;
+        }
+
+        /* Estilo para la navegación móvil */
+        #main-menu {
+            display: none;
+        }
+        
+        .menu-trigger {
+            display: block;
+            text-align: center;
+        }
+        
+        .menu-trigger img {
+            width: 30px;
+            height: 30px;
+            cursor: pointer;
+        }
+
+        @media only screen and (max-width: 768px) {
+            /* Estilos para pantallas de hasta 768px de ancho */
+            .container {
+                width: 90%;
+                margin: 0 auto;
+            }
+            
+            .menu-trigger {
+                display: block;
+            }
+            
+            #main-menu {
+                display: block;
+                margin-top: 10px;
+            }
         }
     </style>
 </head>
