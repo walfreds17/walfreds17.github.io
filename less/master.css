@@ -682,6 +682,7 @@ input[type="submit"], input[type="button"] {
 }
 .detalle-servicio .icono {
     width: 12rem;
+    height: 12rem;
 }
 .servicio-resumen {
     text-align: center;
