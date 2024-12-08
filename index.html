@@ -7,6 +7,7 @@
 	<meta name="author" content="Walter Mora">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Yuji+Mai&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Yuji+Mai&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="style.css">
 	<style>
 		.custom-paragraph {
@@ -17,6 +18,13 @@
             text-align: justify; /* Justificación del texto */
         }
 		/* Reglas de estilo CSS adicionales para hacer que el diseño sea responsive */
+		.custom-paragraph_2 {
+            font-family: 'Open Sans', serif; /* Fuente de Google Fonts */
+            font-size: 1.2em; /* Ajusta el tamaño del texto */
+            font-weight: 600; /* Define un grosor intermedio */
+            color: #34495e; /* Color del texto */
+            text-align: justify; /* Justificación del texto */
+        }
 		.container {
 			width: 90%;
 			margin: 0 auto;
@@ -104,7 +112,7 @@
 			<article id="hero" class="container">
 				<span class="dispositivos"><img src="img/Docencia-01.jpg" alt="Docencia-01"></span>
 				<header>
-					<h2>Nivelación Presencial y Online</h2>
+					<h2 class="custom-paragraph_2">Nivelación Presencial y Online</h2> custom-paragraph_2
 				</header>
 				<!-- Se agrega la clase 'custom-paragraph' al párrafo -->
 				<p class="custom-paragraph">Recibe clases de nivelación personalizadas, mejora tus conocimientos.</p>
