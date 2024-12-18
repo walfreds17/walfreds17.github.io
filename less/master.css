@@ -425,7 +425,7 @@ hr.center {
 @media only screen and (max-width: 56.25rem) {
     #bottom-footer {
         display: block;
-        padding: 1em 0;
+        padding: 1em;
    }
     #bottom-footer .copyright, #bottom-footer #footer-menu {
         display: block;
