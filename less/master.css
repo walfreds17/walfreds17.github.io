@@ -282,9 +282,11 @@ hr.center {
 #main-menu {
     display: table-cell;
     width: 73%;
+    margin-right: 10mm;
     text-align: right;
     vertical-align: middle;
     line-height: 1.3em;
+
 }
 #main-menu ul, #main-menu li {
     margin: 0;
