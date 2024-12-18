@@ -159,7 +159,7 @@ hr.center {
     clear: both;
 }
 .cf {
-    *zoom: 1;
+    zoom: 1;
 }
 .cols {
     text-align: left;
@@ -214,7 +214,7 @@ hr.center {
     clear: both;
 }
 .cols {
-    *zoom: 1;
+    zoom: 1;
 }
 .alignleft {
     float: left;
