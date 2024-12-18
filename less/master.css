@@ -259,7 +259,7 @@ hr.center {
 .logo-header {
     display: table-cell;
     width: 27%;
-    padding: 1.5em 0;
+    padding: 1.5em;
 }
 .logo-header .logo, .logo-header .slogan {
     margin: 0;
