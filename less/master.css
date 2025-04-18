@@ -65,7 +65,7 @@ p:last-child {
     margin-bottom: 0;
 }
 a {
-    color: #881337;
+    color: #fa0000;
     text-decoration: none;
     -webkit-transition: all .3s linear;
     -moz-transition: all .3s linear;
@@ -312,11 +312,11 @@ hr.center {
     text-decoration: none;
 }
 #main-menu ul li.featured a {
-    background: #881337;
+    background: #e20505;
     color: #fff;
 }
 #main-menu ul li.featured a:hover {
-    background: #091b58;
+    background: #5b7972;
 }
 @media only screen and (max-width: 53.125rem) {
     .logo-header {
@@ -377,7 +377,7 @@ hr.center {
    }
     #main-menu ul li.featured a {
         background: 0;
-        color: #091b58;
+        color: #7e89a3;
    }
     #main-menu ul li.featured a:hover {
         background: #d9d9e2;
@@ -576,7 +576,7 @@ input[type="submit"], input[type="button"] {
     color: #fff;
 }
 .btn:hover {
-    background: #091b58;
+    background: #329780;
     text-decoration: none;
 }
 .btn.btn-light {
