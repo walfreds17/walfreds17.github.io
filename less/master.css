@@ -312,7 +312,7 @@ hr.center {
     text-decoration: none;
 }
 #main-menu ul li.featured a {
-    background: #e20505;
+    background: #881337;
     color: #fff;
 }
 #main-menu ul li.featured a:hover {
@@ -557,7 +557,7 @@ textarea {
     width: 100%;
 }
 input[type="submit"], input[type="button"] {
-    background: #ff0000;
+    background: #881337;
     border: 0;
     color: #fff;
     display: inline-block;
@@ -566,7 +566,7 @@ input[type="submit"], input[type="button"] {
 }
 .btn {
     padding: .5em 1.5em;
-    background: #ff0000;
+    background: #881337;
     -webkit-border-radius: 10em;
     -moz-border-radius: 10em;
     -ms-border-radius: 10em;
