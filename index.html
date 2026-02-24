@@ -11,25 +11,39 @@
 	<link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Yuji+Mai&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="style.css">
 	<style>
-		#main-menu.closed {
-        display: none;
-        }
+	/* Menú responsive - Solo ocultar en móvil */
+    @media (max-width: 768px) {
+    #main-menu.closed {
+    display: none;
+    }
 
-        #main-menu.open {
-        display: block;
-        }
+    #main-menu.open {
+    display: block;
+    }
 
-        #main-menu ul li {
-        display: block;
-        padding: 10px 0;
-        border-bottom: 1px solid #ddd;
-        }
+    #main-menu ul li {
+    display: block;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    }
 
-        #main-menu ul li a {
-        text-decoration: none;
-        font-size: 1.1em;
-        color: #2c3e50;
-        }
+    #main-menu ul li a {
+    text-decoration: none;
+    font-size: 1.1em;
+    color: #2c3e50;
+    }
+    }
+
+    /* En escritorio el menú siempre visible */
+    @media (min-width: 769px) {
+    #main-menu {
+    display: block !important;
+    }
+
+    .menu-trigger {
+    display: none;
+    }
+    }
 		.custom-paragraph {
             font-family: 'Roboto Slab', serif; /* Fuente de Google Fonts */
             font-size: 1.2em; /* Ajusta el tamaño del texto */
@@ -278,19 +292,20 @@
 	<script src="js/jquery.flexslider-min.js"></script>
 	<script src="js/rem.min.js"></script>
 	<script src="js/functions.js"></script>
-	<script>
-  // Menú hamburguesa
+<script>
   document.querySelector('.menu-trigger').addEventListener('click', function() {
-    var menu = document.getElementById('main-menu');
-    if (menu.classList.contains('closed')) {
-      menu.classList.remove('closed');
-      menu.classList.add('open');
-    } else {
-      menu.classList.remove('open');
-      menu.classList.add('closed');
+    if (window.innerWidth <= 768) {
+      var menu = document.getElementById('main-menu');
+      if (menu.classList.contains('closed')) {
+        menu.classList.remove('closed');
+        menu.classList.add('open');
+      } else {
+        menu.classList.remove('open');
+        menu.classList.add('closed');
+      }
     }
   });
-    </script>
+</script>
 	<script>
 		jQuery('document').ready(function($){
 			$('.flexslider').flexslider({
