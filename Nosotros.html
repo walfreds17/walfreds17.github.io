@@ -9,6 +9,39 @@
     
     <link rel="stylesheet" href="style.css">
     <style>
+        	/* Menú responsive - Solo ocultar en móvil */
+    @media (max-width: 768px) {
+    #main-menu.closed {
+    display: none;
+    }
+
+    #main-menu.open {
+    display: block;
+    }
+
+    #main-menu ul li {
+    display: block;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    }
+
+    #main-menu ul li a {
+    text-decoration: none;
+    font-size: 1.1em;
+    color: #2c3e50;
+    }
+    }
+
+    /* En escritorio el menú siempre visible */
+    @media (min-width: 769px) {
+    #main-menu {
+    display: block !important;
+    }
+
+    .menu-trigger {
+    display: none;
+    }
+    }
         /* Reglas de estilo CSS adicionales para hacer que el diseño sea responsive */
         .container {
             width: 90%;
@@ -246,6 +279,20 @@
     <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/rem.min.js"></script>
     <script src="js/functions.js"></script>
+    <script>
+  document.querySelector('.menu-trigger').addEventListener('click', function() {
+    if (window.innerWidth <= 768) {
+      var menu = document.getElementById('main-menu');
+      if (menu.classList.contains('closed')) {
+        menu.classList.remove('closed');
+        menu.classList.add('open');
+      } else {
+        menu.classList.remove('open');
+        menu.classList.add('closed');
+      }
+    }
+  });
+</script>
 <!-- Chatbot flotante -->
 <style>
     #chatbot-toggle {
